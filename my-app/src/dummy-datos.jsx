@@ -1,4 +1,4 @@
-[
+const pendingDocs = [
     {
         "id": "inv_MRlj0lt95XyQjvPY",
         "amount": 40000000,
