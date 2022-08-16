@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import {Invoices}  from "./components/Invoices";
+import { Invoices } from "./components/Invoices";
+import { pendingDocs } from "./dummydatos";
 
 function App() {
   return (

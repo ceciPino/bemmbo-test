@@ -3,10 +3,13 @@ import "../App.css";
 import { pendingDocs } from "../dummydatos";
 
 export const Invoices = () => {
+
   return (
     <>
-      <div className="stock-container">
+      <div className="invoice-container">
         {pendingDocs.map((data, key) => {
+          if ( data.type === "received") {
+
           return (
             <div key={key}>
               {data.id +
@@ -16,8 +19,12 @@ export const Invoices = () => {
                 data.type}
             </div>
           );
+          }
+
+
         })}
       </div>
     </>
   );
+
 };
