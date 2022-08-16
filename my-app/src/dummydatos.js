@@ -1,4 +1,5 @@
-const pendingDocs = [
+export const pendingDocs =
+[
     {
         "id": "inv_MRlj0lt95XyQjvPY",
         "amount": 40000000,
@@ -43,4 +44,5 @@ const pendingDocs = [
         "organization_id": "octopus",
         "type": "credit_note",
         "reference": "inv_nDAprkt7D0LKjkE2"
-    }]
+    }
+]
